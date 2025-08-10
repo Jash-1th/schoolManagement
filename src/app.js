@@ -19,7 +19,7 @@ const limiter = rateLimit({
 app.use(limiter);
 
 
-app.use('/api', schoolRoutes);
+app.use('/', schoolRoutes);
 
 
 
